@@ -34,6 +34,22 @@ ArchGen uses a **Sequential Agentic Workflow** (powered by Google ADK):
 
 ---
 
+### ✨ Key Features
+
+- **Guided Prompting**: Start quickly with templates (Full Architecture vs. Agent Workflow) and suggestion chips.
+- **Sequential Agent Workflow**: A multi-agent pipeline (Architect → XML Coder → Blueprint Writer) ensures technical depth.
+- **Bring Your Own Key (BYOK)**: Securely use your own Gemini API quota via a session-based key input.
+- **Interactive UI**: A resizable and draggable floating chat panel that stays out of the way of your design.
+- **Smart Canvas**: Powered by React Flow with snap-to-grid, auto-layout (Dagre), and movable nodes.
+- **Multi-Format Export**:
+  - 🖼️ **PNG**: High-resolution image of your diagram.
+  - 💾 **XML**: Uncompressed Draw.io compatible file for further manual editing.
+  - 📄 **PDF**: Styled, professional technical blueprint ready for sharing.
+- **Version History**: Automatically tracks every generation as `v1`, `v2`, etc., so you never lose a design.
+- **Privacy First**: Your API keys are stored only in your browser's local storage—never on our servers.
+
+---
+
 ### 🚀 Local Setup & Authentication
 
 ArchGen supports two ways to run locally: **Google AI Studio (API Key)** or **Google Cloud SDK (ADC)**.
@@ -98,25 +114,7 @@ When running on `localhost`, ArchGen detects your development environment and pr
 - If you configured **Method A**, it will use the key in your `.env`.
 - If you configured **Method B**, it will use your active `gcloud` credentials.
 
-In production (Vercel), this button is hidden, and users are required to enter their own Gemini API Key for security.
-
----
-
-### ✨ Key Features
-
-- **Guided Prompting**: Start quickly with templates (Full Architecture vs. Agent Workflow) and suggestion chips.
-- **Sequential Agent Workflow**: A multi-agent pipeline (Architect → XML Coder → Blueprint Writer) ensures technical depth.
-- **Bring Your Own Key (BYOK)**: Securely use your own Gemini API quota via a session-based key input.
-- **Interactive UI**: A resizable and draggable floating chat panel that stays out of the way of your design.
-- **Smart Canvas**: Powered by React Flow with snap-to-grid, auto-layout (Dagre), and movable nodes.
-- **Multi-Format Export**:
-  - 🖼️ **PNG**: High-resolution image of your diagram.
-  - 💾 **XML**: Uncompressed Draw.io compatible file for further manual editing.
-  - 📄 **PDF**: Styled, professional technical blueprint ready for sharing.
-- **Version History**: Automatically tracks every generation as `v1`, `v2`, etc., so you never lose a design.
-- **Privacy First**: Your API keys are stored only in your browser's local storage—never on our servers.
-
----
+**In production, this button is hidden, and users are required to enter their own Gemini API Key for security.**
 
 ### 👨‍💻 Author
 
