@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-surface: #F9FAFB;
+  --bg-panel: #FFFFFF;
+  --bg-input: #F3F4F6;
+  --bg-canvas: #FAFAFA;
+  --border: #E5E7EB;
+  --border-hover: #D1D5DB;
+  --accent: #F97316;
+  --accent-light: #FED7AA;
+  --accent-dark: #EA580C;
+  --accent-glow: rgba(249, 115, 22, 0.2);
+  --text: #111827;
+  --text-muted: #6B7280;
+  --text-dim: #9CA3AF;
+  --success: #10B981;
+  --error: #EF4444;
+  --node-frontend: #0891B2;
+  --node-backend: #7C3AED;
+  --node-database: #D97706;
+  --node-storage: #059669;
+  --node-network: #2563EB;
+  --node-ai: #DB2777;
+  --node-security: #DC2626;
+  --node-default: #F97316;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-hover); }
