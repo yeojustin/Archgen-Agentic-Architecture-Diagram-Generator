@@ -21,4 +21,6 @@ logs/
 # OS
 .DS_Store
 
-diagram.png
+# ADK
+.adk/
+session.db
